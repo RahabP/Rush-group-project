@@ -21,8 +21,21 @@ body {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
-    padding-top: 2.5%;
+    padding-top: 1.5%;
 }
 html {
     overflow: hidden; 
+}
+
+.banner {
+    background-color:navy;
+    height: 10%; 
+    text-align: center;
+    align-items: center;
+}
+
+.banner p {
+    color:white;
+    position: flex;
+    padding: 45px;
 }
