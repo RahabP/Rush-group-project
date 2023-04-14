@@ -1,4 +1,4 @@
-body, html {
+body {
     height: 100%
 }
 .bg {
@@ -22,4 +22,7 @@ body, html {
     background-repeat: no-repeat; 
     background-size: cover; 
     padding-top: 2.5%;
+}
+html {
+    overflow: hidden; 
 }

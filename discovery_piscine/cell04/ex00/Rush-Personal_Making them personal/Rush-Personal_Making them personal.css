@@ -20,3 +20,10 @@ header li a {
 body {
     height: 125vh;
 }
+
+div {
+    font-size: 17px
+}
+html {
+    overflow: hidden; 
+}
