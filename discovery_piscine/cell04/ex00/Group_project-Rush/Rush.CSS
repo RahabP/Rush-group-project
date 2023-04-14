@@ -1,0 +1,16 @@
+body, html {
+    height: 100%
+}
+.bg {
+    /* the image used */
+    background: url("background\ image.jpeg");
+
+    /* full height */
+    height: 100%;
+
+    /* center and cslae the image nicely */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+

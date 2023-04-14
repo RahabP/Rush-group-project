@@ -1,0 +1,25 @@
+</html>
+<html>
+    <head>
+        <title>Web page</title>
+        <style>
+            body {
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" onclick="myFunction()">Change color</button>
+
+        <script>
+            function myFunction() {
+                var currentColor = document.body.style.backgroundColor;
+                if (currentColor === "aquamarine") {
+                    document.body.style.backgroundColor = "green";
+                } else {
+                    document.body.style.backgroundColor = "aquamarine";
+                }
+            }
+        </script>
+    </body>
+</html>
