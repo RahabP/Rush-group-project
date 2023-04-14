@@ -9,8 +9,17 @@ body, html {
     height: 100%;
 
     /* center and cslae the image nicely */
-    background-position: center; 
+    background-position: center center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
-
+.center {
+    Display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 2.5%;
+}
